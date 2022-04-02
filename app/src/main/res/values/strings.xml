@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidFundamentalsSpring2022</string>
+    <string name="i_am_a_textview">I am a TextView</string>
+    <string name="i_am_a_button">I am a Button</string>
+    <string name="please_enter_your_email_address">Please enter your email address</string>
+    <string name="i_accept_the_terms_and_conditions">I accept the terms and conditions</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="light_on_off">Light on/off</string>
+    <string name="search_android_hint">Search for Android versions</string>
+</resources>
