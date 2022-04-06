@@ -8,4 +8,6 @@
     <string name="no">NO</string>
     <string name="light_on_off">Light on/off</string>
     <string name="search_android_hint">Search for Android versions</string>
+    <string name="long_message">Android is super! Let\'s learn about View Groups in Android Android is super! Let\'s learn about View Groups in Android Android is super! Let\'s learn about View Groups in Android</string>
+    <string name="short_text">This is a TextView inside of a FrameLayout</string>
 </resources>

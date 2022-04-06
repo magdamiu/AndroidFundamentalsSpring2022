@@ -10,7 +10,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
+        setContentView(R.layout.views_first_part);
 
         String messageToDisplay = "this is a message";
         Log.e("MainActivity", messageToDisplay);
