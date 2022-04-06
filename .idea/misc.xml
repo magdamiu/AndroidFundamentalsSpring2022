@@ -6,6 +6,7 @@
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsSpring2022/app/src/main/res/layout/activity_main.xml" value="0.5401041666666667" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsSpring2022/app/src/main/res/layout/views_first_part.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/relative_layout_sample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/view_groups.xml" value="0.5" />
         <entry key="app/src/main/res/layout/views_first_part.xml" value="0.4384057971014493" />
         <entry key="app/src/main/res/layout/views_second_part.xml" value="0.5635416666666667" />
@@ -17,5 +18,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16274710293115202" />
+      </ProjectState>
+    </option>
   </component>
 </project>

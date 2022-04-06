@@ -10,4 +10,7 @@
     <string name="search_android_hint">Search for Android versions</string>
     <string name="long_message">Android is super! Let\'s learn about View Groups in Android Android is super! Let\'s learn about View Groups in Android Android is super! Let\'s learn about View Groups in Android</string>
     <string name="short_text">This is a TextView inside of a FrameLayout</string>
+    <string name="first_textview">First TextView</string>
+    <string name="second_textview">Second TextView</string>
+    <string name="third_textview">Third TextView</string>
 </resources>
