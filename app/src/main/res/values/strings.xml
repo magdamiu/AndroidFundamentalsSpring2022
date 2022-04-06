@@ -14,4 +14,7 @@
     <string name="second_textview">Second TextView</string>
     <string name="third_textview">Third TextView</string>
     <string name="please_select_an_android_version">Please select an Android version</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
 </resources>
