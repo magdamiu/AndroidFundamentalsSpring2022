@@ -11,8 +11,8 @@
         <entry key="app/src/main/res/layout/relative_layout_sample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/spinner_sample.xml" value="0.3315972222222222" />
         <entry key="app/src/main/res/layout/view_groups.xml" value="0.5" />
-        <entry key="app/src/main/res/layout/views_first_part.xml" value="0.4384057971014493" />
-        <entry key="app/src/main/res/layout/views_second_part.xml" value="0.5635416666666667" />
+        <entry key="app/src/main/res/layout/views_first_part.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/views_second_part.xml" value="0.25" />
       </map>
     </option>
   </component>

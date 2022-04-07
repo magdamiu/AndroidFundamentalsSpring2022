@@ -18,8 +18,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // WebView sample
         //setContentView(R.layout.activity_main);
+
+        // ScrollView sample
         //setContentView(R.layout.views_first_part);
+
         setContentView(R.layout.spinner_sample);
 
         String messageToDisplay = "this is a message";

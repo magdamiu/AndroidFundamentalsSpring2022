@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             // Patterns.EMAIL_ADDRESS.matcher(email).matches()
         } else {
             // step 2: display the strings from EditTexts inside of the TextView
-            textViewDisplayContent.setText(email + " " + password);
+            textViewDisplayContent.setText(new StringBuilder().append(email).append(" ").append(password).toString());
         }
     }
 }

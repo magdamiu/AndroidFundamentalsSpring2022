@@ -25,13 +25,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login"
-        android:onClick="loginOnClick" />
+        android:onClick="loginOnClick"
+        android:text="@string/login" />
 
     <TextView
-        android:layout_marginTop="@dimen/small_space"
         android:id="@+id/displayContentTextView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space" />
 
 </LinearLayout>
