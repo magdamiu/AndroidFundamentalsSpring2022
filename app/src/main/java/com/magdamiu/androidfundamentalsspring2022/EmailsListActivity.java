@@ -1,6 +1,8 @@
 package com.magdamiu.androidfundamentalsspring2022;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
@@ -10,11 +12,15 @@ import java.util.List;
 public class EmailsListActivity extends AppCompatActivity {
 
     private List<Email> emails;
+    private RecyclerView recyclerViewEmails;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emails_list);
+
+        recyclerViewEmails = findViewById(R.id.recyclerViewEmails);
+        setupRecyclerViewEmails();
     }
 
     // step 1: get data source
@@ -44,6 +50,20 @@ public class EmailsListActivity extends AppCompatActivity {
     }
 
     // step 2: get adapter
+    private EmailsAdapter getEmailsAdapter() {
+        return new EmailsAdapter(emails);
+    }
 
     // step 3: map the adapter to the RecyclerView
+    // step 3.1: tells to the RecyclerView to display the items in a linear way (list style)
+    private void setupLayoutManager() {
+        recyclerViewEmails.setLayoutManager(new LinearLayoutManager(EmailsListActivity.this));
+    }
+
+    // step 3.2: combine the code: populate data source, set LayoutManager, set adapter
+    private void setupRecyclerViewEmails() {
+        getEmails();
+        setupLayoutManager();
+        recyclerViewEmails.setAdapter(getEmailsAdapter());
+    }
 }
