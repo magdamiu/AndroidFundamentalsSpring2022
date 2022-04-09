@@ -43,7 +43,6 @@ public class EmailsListActivity extends AppCompatActivity {
         emails.add(email10);
     }
 
-
     // step 2: get adapter
 
     // step 3: map the adapter to the RecyclerView
