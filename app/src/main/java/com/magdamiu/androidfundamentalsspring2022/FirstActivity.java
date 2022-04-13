@@ -65,7 +65,7 @@ public class FirstActivity extends AppCompatActivity {
     }
 
     public void callAPhoneNumberOnClick(View view) {
-        // intent implicit
+        // intent implicit to open the dial app with the defined phone number
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:0777777777"));
         if (intent.resolveActivity(getPackageManager()) != null) {
@@ -73,5 +73,12 @@ public class FirstActivity extends AppCompatActivity {
         } else {
             Toast.makeText(FirstActivity.this, "Please use a device with a SIM card", Toast.LENGTH_LONG).show();
         }
+    }
+
+    public void openAWebsiteOnClick(View view) {
+        // intent implicit to open a website in the browser of the phone
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("http://www.google.com"));
+        startActivity(intent);
     }
 }
