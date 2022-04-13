@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.webkit.WebView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
         spinner = findViewById(R.id.spinnerAndroidVersions);
         setDataSource();
         mapAdapterToTheSpinner();
+
+        // use Picasso to display an image from an URL
+        displayImageFromUrl();
     }
 
     // step 1: data source
@@ -60,5 +66,10 @@ public class MainActivity extends AppCompatActivity {
         WebView webViewOneSample = findViewById(R.id.webViewSample);
         webViewOneSample.getSettings().setJavaScriptEnabled(true);
         webViewOneSample.loadUrl("https://developer.android.com/");
+    }
+
+    private void displayImageFromUrl() {
+        ImageView imageView = findViewById(R.id.imageViewPicasso);
+        Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(imageView);
     }
 }
