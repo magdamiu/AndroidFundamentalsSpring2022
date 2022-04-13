@@ -1,10 +1,12 @@
-package com.magdamiu.androidfundamentalsspring2022;
+package com.magdamiu.androidfundamentalsspring2022.recycler_view;
 
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.magdamiu.androidfundamentalsspring2022.R;
 
 public class EmailViewHolder extends RecyclerView.ViewHolder {
 

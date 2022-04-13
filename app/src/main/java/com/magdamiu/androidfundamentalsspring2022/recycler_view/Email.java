@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsspring2022;
+package com.magdamiu.androidfundamentalsspring2022.recycler_view;
 
 public class Email {
     private String subject;
