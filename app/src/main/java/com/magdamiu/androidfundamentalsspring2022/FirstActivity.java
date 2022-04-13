@@ -3,9 +3,11 @@ package com.magdamiu.androidfundamentalsspring2022;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -57,7 +59,19 @@ public class FirstActivity extends AppCompatActivity {
 
     public void startSecondActivityOnClick(View view) {
         // move from FirstActivity to SecondActivity (open SecondActivity)
+        // intent explicit (SecondActivity is created by us)
         Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
         startActivity(intent);
+    }
+
+    public void callAPhoneNumberOnClick(View view) {
+        // intent implicit
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:0777777777"));
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Toast.makeText(FirstActivity.this, "Please use a device with a SIM card", Toast.LENGTH_LONG).show();
+        }
     }
 }

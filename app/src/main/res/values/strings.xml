@@ -20,4 +20,5 @@
     <string name="this_is_the_firstactivity">This is the FirstActivity</string>
     <string name="ok">OK</string>
     <string name="this_is_the_secondactivity">This is the SecondActivity</string>
+    <string name="call_a_phone_number">Call a phone number</string>
 </resources>
