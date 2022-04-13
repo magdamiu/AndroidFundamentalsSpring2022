@@ -17,4 +17,7 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="this_is_the_firstactivity">This is the FirstActivity</string>
+    <string name="ok">OK</string>
+    <string name="this_is_the_secondactivity">This is the SecondActivity</string>
 </resources>

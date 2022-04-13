@@ -7,14 +7,13 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class FirstActivity extends AppCompatActivity {
-
-    private static final String TAG_ACTIVITY = "FirstActivity";
+public class SecondActivity extends AppCompatActivity {
+    private static final String TAG_ACTIVITY = "SecondActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_second);
 
         Log.e(TAG_ACTIVITY, "onCreate");
     }
@@ -53,11 +52,5 @@ public class FirstActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.e(TAG_ACTIVITY, "onDestroy");
-    }
-
-    public void startSecondActivityOnClick(View view) {
-        // move from FirstActivity to SecondActivity (open SecondActivity)
-        Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
-        startActivity(intent);
     }
 }
