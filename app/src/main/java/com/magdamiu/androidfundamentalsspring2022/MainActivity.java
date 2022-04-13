@@ -70,6 +70,18 @@ public class MainActivity extends AppCompatActivity {
 
     private void displayImageFromUrl() {
         ImageView imageView = findViewById(R.id.imageViewPicasso);
-        Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(imageView);
+
+        // scenario 1:
+        // happy path - we have internet connection & the url contains an image
+        // Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(imageView);
+
+        // scenario 2:
+        // unhappy path - error to display the picture
+        // Picasso.get().load("https://i.imgur.com/DvpvklsR.png").error(R.drawable.sun).into(imageView);
+
+        // scenario 3:
+        // use a placeholder that should be displayed until the image is loaded
+        String url = "https://images.unsplash.com/photo-1649835120258-74d5b7355e34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80";
+        Picasso.get().load(url).placeholder(R.drawable.sun).into(imageView);
     }
 }
