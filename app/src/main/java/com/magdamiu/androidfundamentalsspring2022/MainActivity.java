@@ -71,13 +71,15 @@ public class MainActivity extends AppCompatActivity {
     private void displayImageFromUrl() {
         ImageView imageView = findViewById(R.id.imageViewPicasso);
 
+        // documentation https://square.github.io/picasso/
+
         // scenario 1:
         // happy path - we have internet connection & the url contains an image
         // Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(imageView);
 
         // scenario 2:
         // unhappy path - error to display the picture
-        // Picasso.get().load("https://i.imgur.com/DvpvklsR.png").error(R.drawable.sun).into(imageView);
+        //  Picasso.get().load("https://i.imgur.com/DvpvklsR.png").error(R.drawable.sun).into(imageView);
 
         // scenario 3:
         // use a placeholder that should be displayed until the image is loaded
