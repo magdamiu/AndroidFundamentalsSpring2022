@@ -1,6 +1,7 @@
 package com.magdamiu.androidfundamentalsspring2022.fragments;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
@@ -14,11 +15,6 @@ public class DynamicFragmentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dynamic_fragment);
 
-        // step 1: begin the transaction based on FragmentManager
-        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        // step 2: define the type of operation - in our case it is "replace"
-        fragmentTransaction.replace(R.id.frameLayoutPlaceholder, new BlankFragment());
-        // step 3: complete the transaction
-        fragmentTransaction.commit();
+        FragmentHelper.displayFragment(this, R.id.frameLayoutPlaceholder, new BlankFragment());
     }
 }
