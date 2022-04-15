@@ -20,6 +20,16 @@ public class FirstActivity extends AppCompatActivity {
         setContentView(R.layout.activity_first);
 
         Log.e(TAG_ACTIVITY, "onCreate");
+
+        // used to make debug
+        int firstNumber = 7;
+        int secondNumber = 3;
+        int thirdNumber = 0;
+        int sum = firstNumber + secondNumber;
+        int div = firstNumber / 2;
+        int diff = firstNumber - secondNumber;
+
+        // ANR = Application Not Responding
     }
 
     @Override

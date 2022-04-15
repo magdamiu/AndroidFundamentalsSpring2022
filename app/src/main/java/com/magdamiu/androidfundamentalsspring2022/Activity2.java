@@ -29,7 +29,7 @@ public class Activity2 extends AppCompatActivity {
         if (!messageReceived.isEmpty()) {
             // step 3: send an answer to Activity1
             Intent intent = new Intent();
-            intent.putExtra(RESPONSE, "I have received you message");
+            intent.putExtra(RESPONSE, "I have received your message");
             setResult(RESULT_OK, intent);
             finish();
         }
