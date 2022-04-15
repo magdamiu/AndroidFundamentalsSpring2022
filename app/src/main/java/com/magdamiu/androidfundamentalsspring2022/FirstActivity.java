@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class FirstActivity extends AppCompatActivity {
 
+    public static final String TITLE_KEY = "title";
     private static final String TAG_ACTIVITY = "FirstActivity";
 
     @Override
@@ -61,6 +62,7 @@ public class FirstActivity extends AppCompatActivity {
         // move from FirstActivity to SecondActivity (open SecondActivity)
         // intent explicit (SecondActivity is created by us)
         Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+        intent.putExtra(TITLE_KEY, "Android");
         startActivity(intent);
     }
 

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
     private static final String TAG_ACTIVITY = "SecondActivity";
@@ -16,6 +17,12 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Log.e(TAG_ACTIVITY, "onCreate");
+
+        Bundle extras = getIntent().getExtras();
+        if(extras != null) {
+            String title = extras.getString(FirstActivity.TITLE_KEY);
+            Toast.makeText(SecondActivity.this, title, Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override
