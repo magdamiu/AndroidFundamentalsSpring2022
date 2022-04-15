@@ -83,4 +83,9 @@ public class FirstActivity extends AppCompatActivity {
         intent.setData(Uri.parse("http://www.google.com"));
         startActivity(intent);
     }
+
+    public void openActivity1OnClick(View view) {
+        Intent intent = new Intent(FirstActivity.this, Activity1.class);
+        startActivity(intent);
+    }
 }
