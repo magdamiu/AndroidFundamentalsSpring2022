@@ -23,4 +23,6 @@
     <string name="call_a_phone_number">Call a phone number</string>
     <string name="open_a_website">Open a website</string>
     <string name="open_activity1">Open Activity1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

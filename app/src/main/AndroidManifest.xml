@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsSpring2022">
         <activity
+            android:name=".fragments.DynamicFragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.IncludeFragmentActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity2"
             android:exported="false" />
         <activity

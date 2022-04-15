@@ -9,6 +9,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.magdamiu.androidfundamentalsspring2022.fragments.DynamicFragmentActivity;
+import com.magdamiu.androidfundamentalsspring2022.fragments.IncludeFragmentActivity;
+
 public class FirstActivity extends AppCompatActivity {
 
     public static final String TITLE_KEY = "title";
@@ -96,6 +99,12 @@ public class FirstActivity extends AppCompatActivity {
 
     public void openActivity1OnClick(View view) {
         Intent intent = new Intent(FirstActivity.this, Activity1.class);
+        startActivity(intent);
+    }
+
+    public void openActivityOnClick(View view) {
+        // Intent intent = new Intent(FirstActivity.this, IncludeFragmentActivity.class);
+        Intent intent = new Intent(FirstActivity.this, DynamicFragmentActivity.class);
         startActivity(intent);
     }
 }
