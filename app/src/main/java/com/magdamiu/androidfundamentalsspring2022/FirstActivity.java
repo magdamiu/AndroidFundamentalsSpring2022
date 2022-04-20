@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.magdamiu.androidfundamentalsspring2022.fragments.BundleActivity;
 import com.magdamiu.androidfundamentalsspring2022.fragments.DynamicFragmentActivity;
 import com.magdamiu.androidfundamentalsspring2022.fragments.IncludeFragmentActivity;
+import com.magdamiu.androidfundamentalsspring2022.fragments.SumActivity;
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -105,7 +106,8 @@ public class FirstActivity extends AppCompatActivity {
 
     public void openActivityOnClick(View view) {
         // Intent intent = new Intent(FirstActivity.this, IncludeFragmentActivity.class);
-        Intent intent = new Intent(FirstActivity.this, DynamicFragmentActivity.class);
+        // Intent intent = new Intent(FirstActivity.this, DynamicFragmentActivity.class);
+        Intent intent = new Intent(FirstActivity.this, SumActivity.class);
         startActivity(intent);
     }
 

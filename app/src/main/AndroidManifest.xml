@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsSpring2022">
         <activity
+            android:name=".fragments.SumActivity"
+            android:exported="false" />
+        <activity
             android:name=".fragments.MethodCommunicationActivity"
             android:exported="false" />
         <activity
