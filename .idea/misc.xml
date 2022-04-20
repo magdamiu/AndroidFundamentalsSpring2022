@@ -9,6 +9,7 @@
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsSpring2022/app/src/main/res/layout/views_first_part.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_1.xml" value="0.3432971014492754" />
         <entry key="app/src/main/res/layout/activity_2.xml" value="0.3432971014492754" />
+        <entry key="app/src/main/res/layout/activity_bundle.xml" value="0.5635416666666667" />
         <entry key="app/src/main/res/layout/activity_dynamic_fragment.xml" value="0.5635416666666667" />
         <entry key="app/src/main/res/layout/activity_emails_list.xml" value="0.5635416666666667" />
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.32019927536231885" />
@@ -18,6 +19,8 @@
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.3177083333333333" />
         <entry key="app/src/main/res/layout/constraint_layout_sample.xml" value="0.3383152173913043" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.3432971014492754" />
+        <entry key="app/src/main/res/layout/fragment_blank2.xml" value="0.4148550724637681" />
+        <entry key="app/src/main/res/layout/fragment_bundle.xml" value="0.5635416666666667" />
         <entry key="app/src/main/res/layout/item_email.xml" value="0.5635416666666667" />
         <entry key="app/src/main/res/layout/relative_layout_sample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/spinner_sample.xml" value="0.3315972222222222" />
