@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.magdamiu.androidfundamentalsspring2022.fragments.BundleActivity;
 import com.magdamiu.androidfundamentalsspring2022.fragments.DynamicFragmentActivity;
 import com.magdamiu.androidfundamentalsspring2022.fragments.IncludeFragmentActivity;
 
@@ -105,6 +106,11 @@ public class FirstActivity extends AppCompatActivity {
     public void openActivityOnClick(View view) {
         // Intent intent = new Intent(FirstActivity.this, IncludeFragmentActivity.class);
         Intent intent = new Intent(FirstActivity.this, DynamicFragmentActivity.class);
+        startActivity(intent);
+    }
+
+    public void openBundleActivityOnClick(View view) {
+        Intent intent = new Intent(FirstActivity.this, BundleActivity.class);
         startActivity(intent);
     }
 }
