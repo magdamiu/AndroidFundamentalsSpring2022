@@ -27,4 +27,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="open_bundleactivity">Open BundleActivity</string>
     <string name="send_numbers">Send numbers</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
 </resources>
