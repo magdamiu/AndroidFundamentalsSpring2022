@@ -46,4 +46,6 @@
     <string name="blockchain_doesn_t_matter_here_s_why_inside_design_blog">Blockchain doesn\'t matter. Here\'s why. Inside Design Blog</string>
     <string name="invision_yesterday">InVision - Yesterday</string>
     <string name="button_with_background">Button with background</string>
+    <string name="open_datepicker">Open DatePicker</string>
+    <string name="open_timepicker">Open TimePicker</string>
 </resources>

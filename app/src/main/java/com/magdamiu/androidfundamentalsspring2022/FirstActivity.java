@@ -107,7 +107,8 @@ public class FirstActivity extends AppCompatActivity {
         // Intent intent = new Intent(FirstActivity.this, DynamicFragmentActivity.class);
         // Intent intent = new Intent(FirstActivity.this, SumActivity.class);
         // Intent intent = new Intent(FirstActivity.this, NavigationDrawerActivity.class);
-        Intent intent = new Intent(FirstActivity.this, MaterialDesignActivity.class);
+        // Intent intent = new Intent(FirstActivity.this, MaterialDesignActivity.class);
+        Intent intent = new Intent(FirstActivity.this, AlertsActivity.class);
         startActivity(intent);
     }
 
