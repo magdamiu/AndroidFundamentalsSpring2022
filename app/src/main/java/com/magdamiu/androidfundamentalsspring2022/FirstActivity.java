@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.magdamiu.androidfundamentalsspring2022.activities.Activity1;
 import com.magdamiu.androidfundamentalsspring2022.fragments.BundleActivity;
-import com.magdamiu.androidfundamentalsspring2022.navigation_drawer.NavigationDrawerActivity;
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -107,7 +106,8 @@ public class FirstActivity extends AppCompatActivity {
         // Intent intent = new Intent(FirstActivity.this, IncludeFragmentActivity.class);
         // Intent intent = new Intent(FirstActivity.this, DynamicFragmentActivity.class);
         // Intent intent = new Intent(FirstActivity.this, SumActivity.class);
-        Intent intent = new Intent(FirstActivity.this, NavigationDrawerActivity.class);
+        // Intent intent = new Intent(FirstActivity.this, NavigationDrawerActivity.class);
+        Intent intent = new Intent(FirstActivity.this, MaterialDesignActivity.class);
         startActivity(intent);
     }
 

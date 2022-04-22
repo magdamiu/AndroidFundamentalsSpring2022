@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsSpring2022">
         <activity
+            android:name=".MaterialDesignActivity"
+            android:exported="false" />
+        <activity
             android:name=".navigation_drawer.NavigationDrawerActivity"
             android:exported="false"
             android:label="@string/title_activity_navigation_drawer"
@@ -39,10 +42,10 @@
             android:exported="false" />
         <activity
             android:name=".SecondActivity"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FirstActivity"/>
+                android:value=".FirstActivity" />
         </activity>
         <activity
             android:name=".FirstActivity"
