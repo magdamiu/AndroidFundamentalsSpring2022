@@ -2,6 +2,8 @@ package com.magdamiu.androidfundamentalsspring2022.navigation_drawer;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -11,7 +13,9 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 import com.magdamiu.androidfundamentalsspring2022.R;
 
 public class NavigationDrawerActivity extends AppCompatActivity {
@@ -37,6 +41,25 @@ public class NavigationDrawerActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_navigation_drawer);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        handleFabButton();
+    }
+
+    private void handleFabButton() {
+        FloatingActionButton floatingActionButton = findViewById(R.id.fab);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar snackbar = Snackbar.make(view, "Hello Snackbar", Snackbar.LENGTH_LONG)
+                        .setAction("Refresh", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Toast.makeText(NavigationDrawerActivity.this, "Refresh pressed", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                snackbar.show();
+            }
+        });
     }
 
     @Override
