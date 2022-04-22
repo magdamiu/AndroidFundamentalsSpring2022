@@ -4,14 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.Activity2">
+    android:background="@color/purple_200"
+    tools:context=".navigation_drawer.ui.gallery.GalleryFragment">
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:onClick="sendBackToActivity1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/gallery_fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

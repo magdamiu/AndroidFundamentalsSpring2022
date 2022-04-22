@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsspring2022;
+package com.magdamiu.androidfundamentalsspring2022.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
+import com.magdamiu.androidfundamentalsspring2022.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -22,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // WebView sample
-        //setContentView(R.layout.activity_main);
+        // setContentView(R.layout.activity_main);
 
         // ScrollView sample
-        //setContentView(R.layout.views_first_part);
+        // setContentView(R.layout.views_first_part);
 
         setContentView(R.layout.spinner_sample);
 

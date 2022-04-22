@@ -1,10 +1,12 @@
-package com.magdamiu.androidfundamentalsspring2022;
+package com.magdamiu.androidfundamentalsspring2022.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.magdamiu.androidfundamentalsspring2022.R;
 
 public class Activity2 extends AppCompatActivity {
 

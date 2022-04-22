@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsSpring2022">
         <activity
+            android:name=".navigation_drawer.NavigationDrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.AndroidFundamentalsSpring2022.NoActionBar" />
+        <activity
+            android:name=".nav.NavigationDrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.AndroidFundamentalsSpring2022.NoActionBar" />
+        <activity
             android:name=".fragments.SumActivity"
             android:exported="false" />
         <activity
@@ -27,10 +37,10 @@
             android:name=".fragments.IncludeFragmentActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity2"
+            android:name=".activities.Activity2"
             android:exported="false" />
         <activity
-            android:name=".Activity1"
+            android:name=".activities.Activity1"
             android:exported="false" />
         <activity
             android:name=".SecondActivity"
@@ -57,7 +67,7 @@
             -->
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
             android:exported="true">
 
             <!--
@@ -69,7 +79,7 @@
             -->
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
 
             <!--

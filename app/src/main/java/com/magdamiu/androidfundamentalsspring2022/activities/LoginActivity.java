@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsspring2022;
+package com.magdamiu.androidfundamentalsspring2022.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.magdamiu.androidfundamentalsspring2022.R;
 
 public class LoginActivity extends AppCompatActivity {
     private EditText editTextEmail, editTextPassword;

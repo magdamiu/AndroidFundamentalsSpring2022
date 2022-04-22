@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsspring2022;
+package com.magdamiu.androidfundamentalsspring2022.activities;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
@@ -11,6 +11,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.magdamiu.androidfundamentalsspring2022.R;
 
 public class Activity1 extends AppCompatActivity {
     public static final String MESSAGE = "message";
