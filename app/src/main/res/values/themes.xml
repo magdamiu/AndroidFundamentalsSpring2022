@@ -22,4 +22,14 @@
     <style name="Theme.AndroidFundamentalsSpring2022.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.AndroidFundamentalsSpring2022.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LargeBlueFont">
+        <item name="android:background">#00BFFF</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="LargeBlueFontWithPinkText" parent="LargeBlueFont">
+        <item name="android:textColor">@color/pink</item>
+    </style>
+
 </resources>
