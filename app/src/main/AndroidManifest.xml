@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsSpring2022">
         <activity
+            android:name=".retrofit.GithubActivity"
+            android:exported="false" />
+        <activity
             android:name=".AlertsActivity"
             android:exported="false" />
         <activity
