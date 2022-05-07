@@ -30,7 +30,7 @@ public class GithubActivity extends AppCompatActivity {
 
         // !!!! WARNING: it's token + space + value of the token
         // replace your_code with your token from github;
-        String token = "token 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";
+        String token = "token include_here_token";
 
         // issue details to be sent
         Issue issue = new Issue();
@@ -56,10 +56,7 @@ public class GithubActivity extends AppCompatActivity {
                 Toast.makeText(GithubActivity.this, "Error! Check the logs", Toast.LENGTH_SHORT).show();
             }
         }, owner, repo, token, issue);
-
-
     }
-
 
     private void getUsers() {
         usersRepository = UsersRepository.getInstance();
