@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.magdamiu.androidfundamentalsspring2022.activities.Activity1;
 import com.magdamiu.androidfundamentalsspring2022.fragments.BundleActivity;
-import com.magdamiu.androidfundamentalsspring2022.retrofit.GithubActivity;
+import com.magdamiu.androidfundamentalsspring2022.room.WordsActivity;
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -110,7 +110,8 @@ public class FirstActivity extends AppCompatActivity {
         // Intent intent = new Intent(FirstActivity.this, NavigationDrawerActivity.class);
         // Intent intent = new Intent(FirstActivity.this, MaterialDesignActivity.class);
         // Intent intent = new Intent(FirstActivity.this, AlertsActivity.class);
-        Intent intent = new Intent(FirstActivity.this, GithubActivity.class);
+        //Intent intent = new Intent(FirstActivity.this, GithubActivity.class);
+        Intent intent = new Intent(FirstActivity.this, WordsActivity.class);
         startActivity(intent);
     }
 
